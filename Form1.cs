@@ -49,7 +49,7 @@ namespace Calculator
         {
             textBoxResult.Text = "0";
         }
-
+        //function that deletes last typed number
         private void buttonC_Click(object sender, EventArgs e)
         {
             if (textBoxResult.Text.Length > 1)
